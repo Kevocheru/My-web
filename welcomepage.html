@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+ <style type="text/css" id="dcoder_stylesheet">/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Page 1 Styles */
+.container {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.back-icon {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.back-icon a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.forgot-password {
+    text-align: right;
+}
+
+.forgot-password a {
+    color: #ff4c4c;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4c4c;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.divider {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #888888;
+}
+
+.social-login button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Page 2 Styles */
+.welcome-container {
+    text-align: center;
+}
+
+.language-toggle {
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.language-toggle button {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Style the heading */
+h1 {
+    font-size: 50px; /* Make the text large */
+    text-align: center; /* Center the heading */
+    color: #fff; /* Set default text color to white */
+}
+
+/* Style the 'Deriv' part */
+.red{
+    color: red; /* Make 'Deriv' text red */
+}
+
+/* Style the 'p2p' part */
+.white {
+    color: white; /* Make 'p2p' text white */
+}
+.version {
+    font-size: 12px;
+    color: #888888;
+    margin-bottom: 50px;
+}
+
+.sign-in-btn {
+    background-color: #ff4c4c;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.terms {
+    color: #888888;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+}</style></head> 
+ <body> <charset="utf-8"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <title>Welcome Page</title> 
+   <link rel="stylesheet" href="style.css"> 
+   <div class="welcome-container"> 
+    <div class="language-toggle"> <button>EN</button> 
+    </div> 
+    <h1><span class="red">Deriv</span> <span class="white">p2p</span></h1> 
+    <p class="version">Version 1.17.2</p><l1><!--button linking to loginpage.html--><a href="loginpage.html"><button class="sign-in-btn">Sign in</button></a></l1> 
+    <br><l2><a href="#" class="terms">Terms of use</a></l2><br>
+    <script src="script.js"></script> 
+   </div> 
+  </charset="utf-8"> 
+ 
+<script type="text/javascript" id="dcoder_script">// JavaScript to handle navigation between the two pages
+document.addEventListener("DOMContentLoaded", function () {
+    const signInButton = document.getElementById("signInButton");
+
+    if (signInButton) {
+        signInButton.addEventListener("click", function () {
+            // Navigate to the Login Page
+            window.location.href = "login.html"; // Replace with the actual filename for your login page
+        });
+    }
+});</script></body></html>ipt></body></html>
